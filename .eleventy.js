@@ -1,10 +1,11 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItClass = require('@toycode/markdown-it-class')
+const pluginPWA = require('eleventy-plugin-pwa')
 
 // Map tailwind classes to html elements for markdown styling
 const mapping = {
-  a:[ 'text-blue-600', 'font-semibold', 'hover:underline' ],
+  a:[ 'text-blue-700', 'font-semibold', 'hover:underline' ],
   h1: [
     'leading-tight',
     'border-b',
@@ -74,12 +75,14 @@ const mapping = {
 module.exports = function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight)
-
+  eleventyConfig.addPlugin(pluginPWA)
+  
   // To enable merging of tags
   eleventyConfig.setDataDeepMerge(true)
 
   // Copy these static files to _site folder
   eleventyConfig.addPassthroughCopy('src/assets')
+  eleventyConfig.addPassthroughCopy('src/manifest.json')
 
   // To create excerpts
   eleventyConfig.setFrontMatterParsingOptions({
@@ -92,7 +95,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('readTime', (value) => {
     const content = value
     const textOnly = content.replace(/(<([^>]+)>)/gi, '')
-    const readingSpeedPerMin = 300
+    const readingSpeedPerMin = 450
     return Math.max(1, Math.floor(textOnly.length / readingSpeedPerMin))
   })
 
@@ -113,8 +116,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary('md', md)
 
   // asset_img shortcode
-  eleventyConfig.addLiquidShortcode("asset_img", (filename, alt) => {
-    console.log('file', filename)
+  eleventyConfig.addLiquidShortcode('asset_img', (filename, alt) => {
     return `<img class="my-4" src="/assets/img/posts/${filename}" alt="${alt}" />`
   })
 

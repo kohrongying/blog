@@ -6,8 +6,8 @@
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --no-ignore .eleventy.js",
-    "lint:fix": "eslint . --no-ignore .eleventy.js --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "build": "npx @11ty/eleventy"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "eleventy-plugin-pwa": "^1.0.8",
     "eslint": "^7.4.0"
   },
   "dependencies": {
