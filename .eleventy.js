@@ -76,7 +76,7 @@ const mapping = {
 module.exports = function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight)
-  eleventyConfig.addPlugin(pluginPWA)
+  // eleventyConfig.addPlugin(pluginPWA)
   
   // To enable merging of tags
   eleventyConfig.setDataDeepMerge(true)
