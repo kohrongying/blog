@@ -100,6 +100,8 @@ In the end I had 3 workflows:
   - Triggered on new tag pushed or release published
   - Builds and push with version of the tag
 
+I only started using tags and releases in this project as I don't have much prior experience with git tags. But it was interesting to try it out~
+
 ## The code
 You can check out the terraform code, the deno server and the workflows in this [branch](https://github.com/kohrongying/notes-backend/tree/template).
 
@@ -107,3 +109,6 @@ You can check out the terraform code, the deno server and the workflows in this 
 In my previous job, I had the chance to set up a Rails deployment on CircleCI with images stored on DockerHub. Being able to have the CI in the same environment as the docker registry does seem more convenient as there's one less place to configure. I think it's fun to experiment with Github Actions and compare how different tools handle CI/CD.
 
 Also, my next steps will probably be adding a test layer into my CI as well as integrating a database.
+
+## UPDATES
+[Release v0.2.1]() now has integrated a run test and linting job within the CI. 
