@@ -1,7 +1,7 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItClass = require('@toycode/markdown-it-class')
-const pluginRss = require("@11ty/eleventy-plugin-rss")
+const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 // Map tailwind classes to html elements for markdown styling
 const mapping = {
