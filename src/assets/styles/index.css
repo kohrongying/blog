@@ -16,3 +16,10 @@
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+
+.header-anchor {
+  color: grey;
+  position: absolute;
+  left: 0;
+  padding-left: 10px;
+}

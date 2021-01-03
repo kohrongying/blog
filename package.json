@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@toycode/markdown-it-class": "^1.2.4",
+    "markdown-it-anchor": "^6.0.1",
     "tailwindcss": "^1.9.6"
   }
 }

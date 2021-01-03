@@ -1,6 +1,7 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const markdownIt = require('markdown-it')
 const markdownItClass = require('@toycode/markdown-it-class')
+const markdownItAnchor = require('markdown-it-anchor')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 
 // Map tailwind classes to html elements for markdown styling
@@ -114,6 +115,7 @@ module.exports = function(eleventyConfig) {
 
   const md = markdownIt({ linkify: true, html: true })
   md.use(markdownItClass, mapping)
+  md.use(markdownItAnchor, { level: [1, 2], permalink: true, permalinkBefore: true, permalinkSymbol: '#' })
   eleventyConfig.setLibrary('md', md)
 
   // asset_img shortcode
