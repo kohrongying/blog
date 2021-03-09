@@ -24,7 +24,7 @@ Thus, I set out to find out about different IaC tools and getting to know their 
 | Release Year                 | 2014                                      | 2019                                      | 2019              |
 | Github Stars (9Mar2021) | >25k                                      | 7.9k                                      | 6.4k              |
 | Backend                      | S3                                                                      | Pulumi Cloud or self managed                                            | Cloudformation                                                      |
-| CLI commands                 | ``` terraform init terraform plan terraform apply terraform destroy ``` | ``` pulumi new aws-python --name myproject pulumi up pulumi destroy ``` | ``` cdk init cdk bootstrap cdk ls cdk synth cdk diff cdk deploy ``` |
+| CLI commands                 | ``` terraform init / plan / apply / destroy ``` | ``` pulumi new / up / destroy ``` | ``` cdk init / bootstrap / ls / synth / diff / deploy ``` |
 | Language     | HashiCorp Configuration Language  (HCL)                                 | Python/Go/Node/...                                                      | Python/Go/Node/...                                                  |
 
 
