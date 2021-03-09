@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pnpx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve & postcss ./tailwind.css --o _site/assets/styles/tailwind.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy & postcss ./tailwind.css --o _site/assets/styles/tailwind.css"
   },
   "keywords": [],
   "author": "",
@@ -21,8 +21,10 @@
     "eslint": "^7.17.0"
   },
   "dependencies": {
-    "@toycode/markdown-it-class": "^1.2.4",
-    "markdown-it-anchor": "^6.0.1",
-    "tailwindcss": "^1.9.6"
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.4",
+    "markdown-it-anchor": "^7.0.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
   }
 }

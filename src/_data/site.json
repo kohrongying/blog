@@ -1,6 +1,9 @@
 {
-    "name": "Lorem",
-    "url": "https://rongying.co",
-    "title": "Blog",
-    "description": "A collection of thoughts"
+  "name": "Rong Ying",
+  "url": "https://rongying.co",
+  "title": "My Blog",
+  "description": "Welcome to my blog",
+  "github": "https://github.io/kohrongying",
+  "twitter": "https://twitter.com/RongRunBuild",
+  "linkedin": "https://www.linkedin.com/in/rongyingkoh/"
 }
