@@ -25,7 +25,9 @@ Thus, I set out to find out about different IaC tools and getting to know their 
 | Github Stars (9Mar2021) | >25k                                      | 7.9k                                      | 6.4k              |
 | Backend                      | S3                                                                      | Pulumi Cloud or self managed                                            | Cloudformation                                                      |
 | CLI commands                 | ``` terraform init / plan / apply / destroy ``` | ``` pulumi new / up / destroy ``` | ``` cdk init / bootstrap / ls / synth / diff / deploy ``` |
-| Language     | HashiCorp Configuration Language  (HCL)                                 | Python/Go/Node/...                                                      | Python/Go/Node/...                                                  |
+| Language     | HashiCorp Configuration Language  (HCL)                                 | python / go / node /...                                                      | python / go / node /...                                                  |
+
+I saved my results in my Github Repo - [battle of the IaC.](https://github.com/kohrongying/battle-of-the-iac)
 
 
 ## The Project Architecture
