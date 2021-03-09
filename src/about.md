@@ -1,10 +1,10 @@
 ---
 layout: default
-title: This is Rong Ying.
+title: About me
 ---
 
-She/her. A software person. Singapore.
-
+<p>She/her. A software person.</p>
 <br></br>
-
-[Github](https://github.com/kohrongying). [Website](https://rongying.co).[Twitter](https://twitter.com/RongRunBuild).[Codepen](https://codepen.io/kohrongying).
+<p>I like to twinkle with frontend things. I sometimes do backend. But I am doing devops and iac at work.</p>
+<br></br>
+<p>Follow me on twitter for some nonsense.</p>
