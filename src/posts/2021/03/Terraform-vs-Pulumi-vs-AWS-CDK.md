@@ -35,7 +35,7 @@ I came up with was a simple serverless architecture on AWS:
 
 ## The Verdict
 For simple straightforward apps on _AWS_:
-> *AWS CDK*
+> AWS CDK
 
 For complex and custom apps:
 > Terraform
@@ -50,7 +50,7 @@ Let me go in depth about what I like and dislike into each of the tools:
 - Modules can save your time
 - Variables: being able to share these variables across different files in the same folder without having to import them
 - [IAM policy document](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/iam_policy_document): I really like this so much of terraform. IAM statements in JSON are good, but the data statement is _AMAZING_.
-```
+```hcl
 data "aws_iam_policy_document" "resource_policies" {
   statement {
     sid = "AllowAll"
