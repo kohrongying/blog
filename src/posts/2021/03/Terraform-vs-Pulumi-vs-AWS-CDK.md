@@ -191,7 +191,8 @@ Pulumi has a great cloud interface but I think the documentation needs to help l
 
 AWS CDK construct library is big and ever-growing. I think I will use it for small quick personal projects to allow fast turn over.
 
-Thanks for staying till here!
+Thanks for staying till here! Also, I tweeted about it: 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First blogpost of 2021: Blogged about 3 different IaC tools <br>Terraform vs Pulumi vs AWS CDK<a href="https://t.co/XLfUkLoN6W">https://t.co/XLfUkLoN6W</a> <a href="https://t.co/LxjJ6rCRw7">pic.twitter.com/LxjJ6rCRw7</a></p>&mdash; Rong Ying (@RongRunBuild) <a href="https://twitter.com/RongRunBuild/status/1369318748667084800?ref_src=twsrc%5Etfw">March 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Resources
 - [My Github Repo](https://github.com/kohrongying/battle-of-the-iac)
