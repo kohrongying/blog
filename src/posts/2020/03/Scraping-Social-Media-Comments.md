@@ -2,9 +2,7 @@
 title: Scraping Social Media Comments
 date: 2020-03-13 14:56:09
 tags:
-- javascript
-- instagram
-- facebook
+- scraping
 ---
 
 Scraping Facebook and Instagram comments is not an uncommon thing - especially for social media companies.<!-- excerpt --> Ever since Facebook acquired Instagram, you can now query for comments, insights etc from the Graph API, with the right endpoints.

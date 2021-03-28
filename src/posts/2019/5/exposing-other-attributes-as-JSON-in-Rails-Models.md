@@ -3,7 +3,6 @@ title: exposing other attributes as JSON in Rails Models
 date: 2019-05-08 23:30:05
 tags:
 - rails
-- json
 ---
 
 A simple post on exposing other attributes when returning a json representation of a model instance.<!-- excerpt -->

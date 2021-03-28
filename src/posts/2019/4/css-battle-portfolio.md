@@ -3,9 +3,7 @@ title: css-battle portfolio
 date: 2019-04-23 00:10:02
 tags:
 - css
-- polymer
 - lit-html
-- git subtree
 ---
 
 [CSS Battle](http://cssbattle.dev) is a playground <!-- excerpt -->where you are expected to recreate a target to the best of your abilities (with 100% precision) and with the least amount of code (100% efficiency). It's pretty fun! 

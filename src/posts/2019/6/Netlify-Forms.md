@@ -3,8 +3,6 @@ title: Netlify Forms
 date: 2019-06-30 00:02:11
 tags:
 - netlify
-- JAMstack
-- form inputs
 ---
 
 Netlify magic helped to migrate a rails app to a JAM stack, saving us the monthly cost of a digital ocean droplet as well. <!-- excerpt -->

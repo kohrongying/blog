@@ -4,7 +4,6 @@ date: 2019-04-05 15:50:58
 tags:
 - docker
 - rails
-- whenever
 - cron
 ---
 

@@ -2,9 +2,7 @@
 title: metabase
 date: 2019-04-18 10:20:38
 tags:
-- postgres
-- metabase
-- ssl
+- sql
 ---
 
 Have been trying to add my Google Cloud PostgreSQL database to metabase..<!-- excerpt -->

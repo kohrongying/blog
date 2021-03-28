@@ -3,7 +3,7 @@ title: Resolving Postgres UniqueKey Violation
 date: 2019-08-29 17:55:16
 tags:
 - rails
-- postgres
+- sql
 ---
 
 I encountered a weird postgres error in my rails application yesterday.<!-- excerpt --> It was a `PG: Unique Violation` Error on my pkey which basically means the database is unable to create a new record in that table because there is already a record with that id (the primary key). I found that quite puzzling because primary key was always incremented in postgres side. 

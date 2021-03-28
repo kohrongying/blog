@@ -3,9 +3,6 @@ title: Swiping in React Native
 date: 2019-04-23 16:20:27
 tags:
 - react-native
-- scroll-view
-- horizontal
-- swipe
 ---
 
 We had always wanted to have  a swipe function to <!-- excerpt -->hide and how certain components in our React Native app. 

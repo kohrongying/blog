@@ -3,7 +3,7 @@ title:  Circle CI Workflow with Ruby on Rails and Docker
 date:   2019-01-14 12:09:02
 tags: 
 - docker
-- circleci
+- CI/CD
 - rails
 ---
 
