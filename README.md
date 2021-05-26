@@ -7,7 +7,7 @@ I created my own [Eleventy template](https://github.com/kohrongying/11ty-blog-st
 ## Running locally
 
 ```bash
-node createMdScript.js this is my title
+./create this is my title
 
 $ Created new post at src/posts/2020/07/this-is-my-title.md
 
