@@ -4,6 +4,12 @@
 ## Template
 I created my own [Eleventy template](https://github.com/kohrongying/11ty-blog-starter)! 
 
+```
+git add remote template git@github.com:kohrongying/11ty-blog-starter.git
+git fetch --all
+git merge template/master
+```
+
 ## Running locally
 
 ```bash
