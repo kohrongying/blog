@@ -15,10 +15,29 @@
     <link href="https://unpkg.com/prismjs@1.23.0/themes/prism-okaidia.css" rel="stylesheet">
     <link href="/assets/styles/tailwind.css" rel="stylesheet" />
     <link href="/assets/styles/index.css" rel="stylesheet" />
+    <script>
+      const isDarkMode = () => localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (isDarkMode()) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    </script>
   </head>
-  <body>
-    {{ content }}
 
-  <script data-goatcounter="https://rongying-blog.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <body class="dark:text-white dark:bg-black">
+    {{ content }}
+    
+  <script>
+    document.getElementById("toggleDarkMode").addEventListener("click", function() {
+      if (isDarkMode()) {
+        localStorage.theme = 'light'
+        document.documentElement.classList.remove('dark')
+      } else {
+        localStorage.theme = 'dark'
+        document.documentElement.classList.add('dark')
+      }
+    });
+  </script>
   </body>
 </html>

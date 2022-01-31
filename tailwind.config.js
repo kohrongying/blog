@@ -1,10 +1,7 @@
 module.exports = {
-  purge: ['./src/**/*.md', './_includes/**/*.liquid'],
-  theme: {
-    extend: {},
-  },
-  variants: {},
+  darkMode: 'class',
+  content: ['./src/**/*.md', './src/_includes/**/*.liquid'],
   plugins: [
     require('@tailwindcss/typography')
-  ]
+  ],
 }
