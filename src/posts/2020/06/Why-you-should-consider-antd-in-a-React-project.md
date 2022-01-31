@@ -65,7 +65,7 @@ Here is an example to illustrate my points:
 ```js
 <Form
     onFinish={this.handleSubmit}
-    initialValues={{ nickname: "turt" }}
+    initialValues={ { nickname: "turt" } }
     ref={this.formRef}
 >
     <Form.Item
