@@ -18,7 +18,7 @@ Environment variables are exported differently in a powershell script as compare
 export VERY_SECRET_SECRET="i like cats"
 
 # powershell
-$env:VERTY_IMPORTANT_SECREET="i also like dogs"
+$env:VERY_IMPORTANT_SECRET="i also like dogs"
 ```
 I initially committed a script with empty values. But then when I do my local dev, I made changes to this file and I knew that this need to always be an unstaged change.
 

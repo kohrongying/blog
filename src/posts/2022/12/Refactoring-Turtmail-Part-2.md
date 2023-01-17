@@ -7,7 +7,7 @@ published: false
 Refactoring is not just a way of life, it is __the__ way of life.
 
 ## Part 1
-Read Part 1 [here]()
+Read Part 1 [here](https://blog.rongying.co/posts/2022/01/refactoring-turtmail/)
 
 ## tldr;
 1. Added GUI using Gooey to facilitate interaction 
