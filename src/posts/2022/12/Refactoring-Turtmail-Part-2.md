@@ -2,10 +2,12 @@
 title: "Refactoring Turtmail Part 2"
 date: "2022-12-31"
 tags:
+- python
 - refactor
 ---
 
 Refactoring is not just a way of life, it is __the__ way of life.
+<!-- excerpt -->
 
 ## tldr;
 1. Added GUI using Gooey to facilitate user interaction 

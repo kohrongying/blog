@@ -3,7 +3,7 @@ title: "Refactoring turtmail"
 date: "2022-01-30"
 tags:
 - python
-- refactoring
+- refactor
 ---
 
 Recently bought Uncle Rob's Clean Code and instinctively went to relook at my old python code that I've been using but not maintaining.<!-- excerpt -->
