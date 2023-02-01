@@ -37,15 +37,19 @@ Ask you a few questions.
 
 Whole thing took 30-45 minutes
 
-### Receiving
+### Being notified for pickup
 I got email/sms to pick it up about 1-2 business days after my interview. Blazing fast! 
 I was told 5-7 business days.
 
-2 modes - pick up (I chose from Chinatown) or delivery (extra $$)
+There are 2 modes for passport collection
+1) Pick up (I chose from Chinatown)
+2) Delivery (extra $$)
 
-Visa itself has validity of 12-18 months but mine was 18 months 
-LCA validity is around 3 years
-Need to renew the H1-B1 visa around 6 months before expiry
+Things to note:
+- Visa itself has validity of 12-18 months but mine was 18 months 
+- LCA validity is around 3 years
+- Need to renew the H1-B1 visa around 6 months before expiry
+- What determines your length of stay is not the LCA nor visa expiry, but Form I-94 when you cross US borders
 
 ## Moving
 This is really based on your own discretion, summer/winter clothes, your devices, some dried foods / microwave meals for the first few days.
@@ -56,12 +60,16 @@ This is really based on your own discretion, summer/winter clothes, your devices
 Documents to prepare:
 1. LCA
 2. Company Offer Letter
+3. Vaccination Letter
 
 Things to follow up:
 1. I-94
 
 ## Social Security Number (SSN)
 The SSN is the equivalent of your identification in the US. Need to register for this 4-5 days after arriving in the US.
+
+List of documents to prepare
+- Birth cert 
 
 ## Banking
 Some banks require your SSN as well as an address in order to open an account.
@@ -101,4 +109,5 @@ I would prefer fully furnished apartments (I know $$$), but it is a hassle for o
 
 ## Misc
 - Telephone (AT&T, T-Mobile)
-- Internet 
+    - I went for a Mint Mobile pre-paid plan $20 for 10GB with eSIM. eSIMs can be activated timely once you scanned the QR unlike physical SIM cards where they need to send it to your residence, especially if you have not found a place to stay.
+- Internet / WIFI
