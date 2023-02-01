@@ -31,7 +31,7 @@ User without technical know-how of what a command line will be able to interact 
 The Windows Batch file was the user's entry point into the system.
 
 1. Create a batch file (payslips.bat)
-```commandline
+```sh
 // payslips.bat
 "C:\Users\xxx\venv\Scripts\python.exe" "path/to/payslips-mailer-runner.py"
 ```
