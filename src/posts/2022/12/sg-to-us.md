@@ -143,5 +143,9 @@ Buy or renting furniture and appliances are options.
 - Internet / WiFi
 
 
+## Awesome References
+- [Huikang's Blog](https://blog.huikang.dev/2021/11/06/starting-out-h1b1.html)
+- [Junwen's H1B1 Blog](https://theh1b1.blogspot.com/2019/05/welcome-to-this-blog.html)
+
 I'll be updating this page regularly as I learn more :) 
 Look Ma, how much I've grown! 
