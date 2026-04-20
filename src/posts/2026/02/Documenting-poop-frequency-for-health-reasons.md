@@ -1,5 +1,5 @@
 ---
-title: "Documenting poop frequency for health reasons..."
+title: "Documenting poop frequency for health reasons"
 date: "2026-02-09"
 tags:
 - python
