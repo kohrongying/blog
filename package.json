@@ -20,7 +20,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "eleventy-plugin-pwa": "^1.0.8",
     "eslint": "^7.12.1",
-    "postcss": "^8.4.5"
+    "postcss": "^8.5.16"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.1",
